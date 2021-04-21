@@ -1,0 +1,71 @@
+
+        @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Mulish", sans-serif;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            /* background-color: #fbbdaf; */
+            display: grid;
+            place-items: center;
+        }
+
+        form {
+            background: linear-gradient(to right, #f09819, #edde5d);
+            /* background-color: #ff9f43; */
+            padding: 80px;
+            width: 50%;
+            margin: 100px auto;
+            text-align: center;
+            -webkit-box-shadow: 0 10px 6px -6px #777;
+            -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+            border-radius: 5px;
+        }
+
+        #tempCalc label {
+            font-size: 30px;
+        }
+
+        #temp {
+            border: none;
+            padding: 10px;
+            height: 40px;
+            width: 100px;
+            font-size: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        #temp_diff {
+            height: 40px;
+            border: none;
+            margin-top: 20px;
+            font-size: 15px;
+            vertical-align: top;
+            border-radius: 5px;
+        }
+
+        [type="submit"] {
+            height: 35px;
+            margin: 20px;
+            width: 100px;
+            font-size: 15px;
+            border: none;
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        #resultContainer {
+            font-size: 35px;
+        }
+    
