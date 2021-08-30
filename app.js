@@ -23,10 +23,10 @@
 
             if (valueTemp == 'cel') {
                 result = celToFah(numberTemp);
-                document.getElementById('resultContainer').innerHTML = `= ${result}°Fahrenheit`;
+                document.getElementById('resultContainer').innerHTML = ` ${result}°Fahrenheit`;
             } else {
                 result = fehToCel(numberTemp);
-                document.getElementById('resultContainer').innerHTML = `= ${result}°Celsius`;
+                document.getElementById('resultContainer').innerHTML = ` ${result}°Celsius`;
             }
 
         }

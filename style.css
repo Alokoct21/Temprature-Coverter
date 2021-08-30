@@ -69,3 +69,18 @@
             font-size: 35px;
         }
     
+
+        /* mebile media query */
+    @media (max-width:468px){
+        #tempCalc{
+            width: 80%;
+            height: auto;
+        }
+        #tempCalc label{
+            width: 100%;
+            height: auto;
+            text-align: center;
+            color: black;
+            
+        }
+    }
